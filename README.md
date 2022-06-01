@@ -3,8 +3,8 @@ Different data collectors
 
 1. ufc_collector
   Required packages:
-  1. scrapy
-  2. scrrapy-splash
+  -scrapy
+  -scrrapy-splash
   
   Run the spider: scrapy crawl ufcier -O athletes_data.json
   Before you start the spider setup splash to run on docker and change address and port in settings.py file
@@ -12,8 +12,8 @@ Different data collectors
 
 2. financial_collector
   Required packages:
-  1. pandas
-  2. BeautifulSoup
-  3. sqlalchemy
+  -pandas
+  -BeautifulSoup
+  -sqlalchemy
   
   How to use the script: create new SP500FinancialDataCollector object and use save_financial_data_to_sql method
