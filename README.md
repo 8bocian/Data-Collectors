@@ -6,9 +6,10 @@ Different data collectors
   scrapy
   scrrapy-splash
   
-  Run the spider: scrapy crawl ufcier -O athletes_data.json
+  Run the spider: scrapy crawl ufcier -O athletes_data.json 
+  (-O overwrite, -o append)
   Before you start the spider setup splash to run on docker and change address and port in settings.py file
-  This command runs the spider and creates/overwrites athletes_data.json file with scraped data
+  This command runs the spider and creates athletes_data.json file with scraped data about athletes
 
 2. financial_collector
   Required packages:
